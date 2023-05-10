@@ -1,0 +1,43 @@
+body {
+    font-family: Robots, sans-serif;
+    font-size: 16px;
+    width: 900px;
+    margin: auto;
+    background-color: #f7f8fa;
+  }
+  
+  .meu-gatinho1,
+  .meu-gatinho3 {
+    background-color: #e0e4ec;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .meu-gatinho3 {
+    border: 1px solid #050505;  
+  }
+  
+  h3 {
+    color: #5f5e5e;
+  }
+  
+  table {
+    border: 1px solid black;
+    width: 550px;
+    height: 100px;
+    padding: 0;
+    font-size: 20px;
+    margin: auto;
+  }
+  
+  td {
+    width: 400px;
+    height: 30px;
+    margin: auto;
+  }
+  
+  .pag {
+    text-align: right;
+    font-size: small;
+  }
+  
