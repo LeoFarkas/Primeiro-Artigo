@@ -1,11 +1,11 @@
 body {
-    font-family: Robots, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     width: 900px;
     margin: auto;
     background-color: #f7f8fa;
   }
-  
+
   .meu-gatinho1,
   .meu-gatinho3 {
     background-color: #e0e4ec;
