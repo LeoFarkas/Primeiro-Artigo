@@ -3,7 +3,7 @@
 <head>
     <title>Meu Primeiro Artigo</title>
     <meta charset="UFT-8">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
     <meta name="description" content="Meu Primeiro Artigo">     
     <link rel="stylesheet" href="css/style.css"/>
     <style>
@@ -11,7 +11,7 @@
             background-color: #e0e4ec;
             padding: 10px;
             margin-top: 10px;
-            border-radius: 10px;            
+            border-radius: 2px;            
         }
     </style>
 </head>
@@ -30,7 +30,7 @@
         transformar uma palavra ou imagem num hiperlink, pode colocar palavras em itálico, pode aumentar ou diminuir a fonte e assim por diante. Por exemplo, veja a seguinte linha de conteúdo:</p>
         <p class="meu-gatinho1">Meu gatinho é muito mal humorado</p>                    
         <p>Se quiséssemos que a linha permanecesse por si só,poderíamos especificar que é um parágrafo colocando-a em uma tag de parágrafo:</p>   
-        <p class="meu-gatinho2"><span style="color: rgb(184, 184, 184)"">&lt;</span><span style="color:blue">p</span><span style="color: rgb(184, 184, 184)"">&gt;</span>Meu gatinho é muito mal humorado<span style="color: rgb(184, 184, 184)"">&lt;</span><span style="color:blue">/p</span><span style="color: rgb(184, 184, 184)">&gt;</span></p>  
+        <p class="meu-gatinho2"><span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:blue">p</span><span style="color: rgb(184, 184, 184)">&gt;</span>Meu gatinho é muito mal humorado<span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:blue">/p</span><span style="color: rgb(184, 184, 184)">&gt;</span></p>  
     <h3>Anatomia de um elemento HTML</h3>
         <p>Vamos explorar esse parágrafo mais profundamente.</p>
         <img src="img\img1.png">    
@@ -43,8 +43,8 @@
     </ol>
         <p>Elementos também podem ter atributos, que parecem assim:</p>                
         <img src="img\img2.png">            
-        <p>Atributos contém informação extra sobre o elemento que você não quer que apareça no conteúdo real. Aqui, <span style="background:#e0e4ec">class</span>  é o nome do atributo e <span style="background:#e0e4ec">editor-note</span>  é o valor do atributo. 
-        O atributo  <span style="background:#e0e4ec">class</span>  permite que você forneça ao elemento um identificador que possa ser usado posteriormente para aplicar ao elemento informações de estilo e outras coisas.</p>
+        <p>Atributos contém informação extra sobre o elemento que você não quer que apareça no conteúdo real. Aqui, <span style="background:#ebedf0">class</span>  é o nome do atributo e <span style="background:#ebedf0">editor-note</span>  é o valor do atributo. 
+        O atributo  <span style="background:#ebedf0">class</span>  permite que você forneça ao elemento um identificador que possa ser usado posteriormente para aplicar ao elemento informações de estilo e outras coisas.</p>
         <p>Um atributo sempre deve ter:</p>
     <ul>
         <li>Um espaço entre ele e o nome do elemento (ou o atributo anterior, se o elemento já tiver um).</li>
@@ -53,17 +53,17 @@
     </ul> 
     <h3>Aninhando elementos</h3>
         <p>Você pode colocar elementos dentro de outros elementos também — isso é chamado de <strong>aninhamento</strong>
-        .Se quiséssemos afirmar que nosso gato é <strong>muito</strong> mal-humorado, poderíamos envolver a palavra "muito" em um elemento <span style="background:#e0e4ec">&lt;strong&gt;</span>, o que significa que a palavra deve ser fortemente enfatizada:</p>                
+        .Se quiséssemos afirmar que nosso gato é <strong>muito</strong> mal-humorado, poderíamos envolver a palavra "muito" em um elemento <span style="background:#ebedf0">&lt;strong&gt;</span>, o que significa que a palavra deve ser fortemente enfatizada:</p>                
         <p class="meu-gatinho3"><span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:blue">p</span><span style="color: rgb(184, 184, 184)">&gt;</span>Meu gatinho é <span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:green">strong</span><span style="color: rgb(184, 184, 184)">&gt;</span> muito <span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:green"></span><span style="color:green">/strong</span><span style="color: rgb(184, 184, 184)">&gt;</span> mal humorado <span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:blue">/p</span><span style="color: rgb(184, 184, 184)">&gt;</span></p>                    
-        <p>Você precisa, no entanto, certificar-se de que seus elementos estejam adequadamente aninhados. No exemplo acima, abrimos primeiro o elemento <span style="background:#e0e4ec">&lt;p&gt;</span>, depois o elemento <span style="background:#0000000D">&lt;strong&gt;</span>; portanto, 
-        temos que fechar primeiro o elemento <span style="background:#e0e4ec">&lt;strong&gt;</span>, depois o elemento <span style="background:#e0e4ec">&lt;p&gt;</span>. <span style="color:red">O código abaixo está incorreto</span>:</p>
+        <p>Você precisa, no entanto, certificar-se de que seus elementos estejam adequadamente aninhados. No exemplo acima, abrimos primeiro o elemento <span style="background:#e4e6eb">&lt;p&gt;</span>, depois o elemento <span style="background:#ebedf0">&lt;strong&gt;</span>; portanto, 
+        temos que fechar primeiro o elemento <span style="background:#ebedf0">&lt;strong&gt;</span>, depois o elemento <span style="background:#ebedf0">&lt;p&gt;</span>. <span style="color:red">O código abaixo está incorreto</span>:</p>
         <p class="meu-gatinho3"><span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:blue">p</span><span style="color: rgb(184, 184, 184)">&gt;</span>Meu gatinho é <span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:green">strong</span><span style="color: rgb(184, 184, 184)">&gt;</span>muito mal humorado<span style="color:blue"><span style="color: rgb(184, 184, 184)">&lt;</span>/p</span><span style="color: rgb(184, 184, 184)">&gt;</span><span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:green">/strong</span><span style="color: rgb(184, 184, 184)">&gt;</span></span></p>
         <p>Os elementos precisam ser abertos e fechados corretamente para que eles estejam claramente visíveis dentro ou fora um do outro. 
         Se eles se sobrepuserem conforme mostrado acima, seu navegador tentará adivinhar o que você estava tentando dizer, o que pode levar a resultados inesperados. Então não faça isso!</p>
     <h3>Elementos vazios</h3>
-        <p>Alguns elementos não possuem conteúdo e são chamados de elementos vazios. Considere o elemento <span style="background:#e0e4ec">&lt;img&gt;</span> que temos na nossa página HTML:</p>
+        <p>Alguns elementos não possuem conteúdo e são chamados de elementos vazios. Considere o elemento <span style="background:#ebedf0">&lt;img&gt;</span> que temos na nossa página HTML:</p>
         <p class="meu-gatinho3"><span style="color: rgb(184, 184, 184)">&lt;</span><span style="color:green">img </span><span style="color:red">src</span><span style="color:green"><span style="color: rgb(184, 184, 184)">="</span>imagens/firefox-icon.png<span style="color: rgb(184, 184, 184)">"</span></span> <span style="color:red">alt</span><span style="color:green"><span style="color: rgb(184, 184, 184)">="</span>Minha imagem de teste<span style="color: rgb(184, 184, 184)">"&gt;</span></span></p>
-        <p>Ele contém dois atributos, mas não há tag <span style="background:#e0e4ec">&lt;img&gt;</span> de fechamento, e não há conteúdo interno. Isso acontece porque um elemento de imagem não envolve conteúdo para ter efeito em si mesmo.
+        <p>Ele contém dois atributos, mas não há tag <span style="background:#ebedf0">&lt;img&gt;</span> de fechamento, e não há conteúdo interno. Isso acontece porque um elemento de imagem não envolve conteúdo para ter efeito em si mesmo.
         Sua proposta é incorporar uma imagem na página HTML no lugar que o código aparece.<br></p>
     <h2>Referências de entidades: incluindo caracteres especiais no HTML</h2>
         <p>No HTML, os caracteres <, >,",' e o & são caracteres especiais. Eles fazem parte da própria sintaxe HTML; portanto, como você inclui um desses caracteres no seu texto?
